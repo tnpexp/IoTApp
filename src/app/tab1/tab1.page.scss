@@ -2,3 +2,31 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+ion-grid > ion-row > ion-col > ion-card{
+  width: 100%;
+}
+
+ion-card-content > ion-row > ion-col{
+  vertical-align: middle;
+}
+
+.md-card-bg .md-card-subtitle,
+.md-card-bg .md-card-title {
+    position: absolute;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    outline-color: black;
+    width: 100%;
+}
+img {
+  box-shadow: 10px 10px;
+}
+
+.md-card-bg .md-card-title {
+    margin-top: -30px;
+}
+
+.md-card-bg .md-card-subtitle {
+    margin-top: 10px;
+}
