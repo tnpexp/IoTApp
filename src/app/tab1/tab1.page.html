@@ -6,11 +6,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-card class="md-card-bg" center text-center>
-    <img src="https://i0.wp.com/www.meehayonline.com/wp-content/uploads/2018/04/30716469_1597732913677120_2778502635425103872_n.jpg?w=500">
-    <h2 class="md-card-title mbsc-align-center">Las Vegas</h2>
-    <h5 class="md-card-subtitle mbsc-align-center mbsc-bold">63 apartments available</h5>
+<ion-content class="card-back-page" padding>
+  <ion-card>
+    <img src="https://eonline.lk/sinhala/wp-content/uploads/2018/09/s-1.jpg">
+    <div class="card-title">Durian Garden</div>
+    <div class="card-subtitle">Management Application</div>
   </ion-card>
 
   <ion-card center text-center>
@@ -26,7 +26,7 @@
   <ion-card>
     <ion-item>
       <ion-icon name="speedometer" slot="start"></ion-icon>
-      <ion-label>ปริมาณน้ำที่ใช้</ion-label>
+      <ion-label>ปริมาณน้ำที่ใช้</ion-label>`
       <ion-button fill="outline" slot="end">รายละเอียด</ion-button>
     </ion-item>
 
@@ -42,7 +42,7 @@
   <ion-grid center text-center>
     <ion-row>
       <ion-col>
-        <ion-card>
+        <ion-card button (click)="tap2">
           <ion-card-content><ion-icon style="zoom:7" name="clipboard" slot="start"></ion-icon></ion-card-content>
         </ion-card>
       </ion-col>

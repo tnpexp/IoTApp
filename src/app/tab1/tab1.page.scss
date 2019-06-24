@@ -1,3 +1,39 @@
+.card-back-page{
+  ion-card{
+    position: relative;
+    text-align: center;
+  }
+  
+  .card-title {
+      position: absolute;
+      top: 50%;
+      color: rgb(255, 251, 0);
+      width: 100%;
+      font-size: 30px;
+      font-weight: bold;
+      text-shadow: -1px -2px 0 rgba(0, 0, 0, 0.5),-2px 1px 0 rgba(0, 0, 0, 0.5),
+                   -1px 2px 0 rgba(0, 0, 0, 0.5),2px 1px 0 rgba(0, 0, 0, 0.5),
+                    0 0 4px rgba(139, 139, 139, 0.596);
+  }.card-subtitle{
+    position: absolute;
+      top: 50%;
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      text-shadow: -1px -2px 0 rgba(0, 0, 0, 0.5),-2px 1px 0 rgba(0, 0, 0, 0.5),
+                   -1px 2px 0 rgba(0, 0, 0, 0.5),2px 1px 0 rgba(0, 0, 0, 0.5),
+                    0 0 4px rgba(139, 139, 139, 0.596);
+  }
+  
+  .card-title {
+      margin-top: -30px;
+  }
+  
+  .card-subtitle {
+      margin-top: 10px;
+  }
+}
 .welcome-card ion-img {
   max-height: 35vh;
   overflow: hidden;
@@ -9,24 +45,4 @@ ion-grid > ion-row > ion-col > ion-card{
 
 ion-card-content > ion-row > ion-col{
   vertical-align: middle;
-}
-
-.md-card-bg .md-card-subtitle,
-.md-card-bg .md-card-title {
-    position: absolute;
-    top: 50%;
-    color: rgb(255, 255, 255);
-    outline-color: black;
-    width: 100%;
-}
-img {
-  box-shadow: 10px 10px;
-}
-
-.md-card-bg .md-card-title {
-    margin-top: -30px;
-}
-
-.md-card-bg .md-card-subtitle {
-    margin-top: 10px;
 }
