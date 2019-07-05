@@ -1,9 +1,62 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Report</ion-title>
+  <ion-toolbar center text-center>
+    <ion-title>
+      <ion-icon color="medium" name="apps" style="font-size: 30px; vertical-align: middle"></ion-icon><a style="vertical-align: middle"> Report</a>
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="card-back-page" padding>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="speedometer" slot="start"></ion-icon>
+      <ion-label>ปริมาณน้ำที่ใช้</ion-label>`
+      <ion-button fill="outline" slot="end">รายละเอียด</ion-button>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-row>
+        <ion-col text-left>จำนวน</ion-col>
+        <ion-col text-right style="font-size: 30px">10000</ion-col>
+        <ion-col text-right>Unit</ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <table center text-center cellspacing="0" cellpadding="0" 
+    class="table table-bordered table-striped table-hover text-center" 
+    style="width: 100%">
+      <thead>
+        <tr>
+          <th>1</th>
+          <th>1</th>
+          <th>1</th>
+          <th>1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>  
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>  
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>  
+        </tr>
+      </tbody>
+    </table>  
+  </ion-card>
+
 
 </ion-content>
